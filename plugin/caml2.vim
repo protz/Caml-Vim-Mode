@@ -127,10 +127,10 @@ function OpenCaml ()
   normal ggdd0i(*
   normal $a       *)
   normal G$
-  set ft=omlet
+  set ft=ocaml
     set foldnestmax=0
   exe s:inBufNr."wincmd w"
-  set ft=omlet
+  set ft=ocaml
 
 endfunction
 
